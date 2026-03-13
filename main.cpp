@@ -7,10 +7,7 @@ int main()
 {
     double a, b, c;
 
-
-
     cin >> a >> b >> c;
-
 
     double discriminant = b * b - 4 * a * c;
 
