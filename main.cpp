@@ -6,17 +6,32 @@ using namespace std;
 int main()
 {
     double a, b, c;
-    // TODO
 
-    // TODO
-    // TODO
-    // TODO
 
-    // TODO
-    // TODO
+    double root1, root2;
+
+
+    cout << "Enter the coefficients a, b and c: ";
+    cin >> a >> b >> c;
+
+
+    double discriminant = b * b - 4 * a * c;
+
+
+    root1 = (-b + sqrt(discriminant)) / (2 * a);
+
+
+    root2 = (-b - sqrt(discriminant)) / (2 * a);
+    
+
+    if (root2 > root1) {
+        swap(root1, root2);
+    }
 
     cout << setprecision(2) << fixed;
-    // TODO
+
+    
+    cout << "The roots are: " << root1 << " and " << root2 << endl;
 
     return 0;
 }
