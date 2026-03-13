@@ -11,7 +11,6 @@ int main()
     double root1, root2;
 
 
-    cout << "Enter the coefficients a, b and c: ";
     cin >> a >> b >> c;
 
 
