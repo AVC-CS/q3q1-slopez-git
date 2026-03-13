@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    double a = 0.0, b = 0.0, c = 0.0;
+    double a, b, c;
 
 
     double root1, root2;
@@ -15,8 +15,6 @@ int main()
 
 
     double discriminant = b * b - 4 * a * c;
-
-    if (discriminant < 0) discriminant = 0;
 
     root1 = (-b + sqrt(discriminant)) / (2 * a);
 
@@ -28,7 +26,7 @@ int main()
         swap(root1, root2);
     }
 
-    cout << fixed << setprecision(2) << root1 << " " << root2 << endl; 
-
-    return 0;
+    cout << setprecision(2) << fixed;
+    cout << "Roots: " << root1 << " " << root2 << endl;
+        return 0;
 }
