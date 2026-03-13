@@ -27,10 +27,8 @@ int main()
         swap(root1, root2);
     }
 
-    cout << setprecision(2) << fixed;
+    cout << fixed << setprecision(2) << root1 << " " << root2 << endl; 
 
-
-    cout << root1 << " " << root2 << endl;
 
     return 0;
 }
