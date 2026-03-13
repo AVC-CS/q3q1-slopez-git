@@ -30,8 +30,8 @@ int main()
 
     cout << setprecision(2) << fixed;
 
-    
-    cout << "The roots are: " << root1 << " and " << root2 << endl;
+
+    cout << root1 << " " << root2 << endl;
 
     return 0;
 }
